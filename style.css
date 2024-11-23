@@ -1,0 +1,64 @@
+* {
+  text-align: center;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+h4 {
+  padding: 16px;
+  margin: 0;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header, footer {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: aquamarine;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  margin: 1.5rem;
+  padding: 1rem;
+}
+
+.gambar {
+  width: 350px;
+  height: 350px;
+  background-color: aqua;
+  margin-right: 2rem;
+}
+
+.contents {
+  width: 500px;
+  height: 350px;
+  border: solid 1px;
+}
+
+input {
+  text-align: start;
+}
+
+@media only screen and (max-width: 620px) {
+  main {
+    display: block;
+  }  
+
+  .gambar {
+    width: 100%;
+  }
+
+  .contents {
+    width: 100%;
+  }
+}
